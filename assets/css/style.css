@@ -16,26 +16,30 @@ nav {
 .list-items {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     list-style-type: none;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-left: 150px;
 }
 
 .list-item {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 400;
-    padding: 0px 50px;
+    padding: 0px 20px;
     font-family: sans-serif;
     color: #ffffff;
 }
 
 .logo-section {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 50px;
 }
 
+.logo-section>img {
+    width: 150px;
+}
+
 .btn {
-    margin: 40px 50px 50px 50px;
+    margin: 30px 50px 50px 50px;
 }
 
 .btn>button {
@@ -70,13 +74,13 @@ nav {
 }
 
 .right-section>h1 {
-    font-size: 3em;
+    font-size: 3.2em;
     font-weight: 600;
     font-family: "Raleway", sans-serif;
 }
 
 .right-section>p {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 50px;
     font-size: 1.5em;
     font-weight: 200;
@@ -86,28 +90,38 @@ nav {
 
 form {
     background-color: #fff;
-    width: 50vh;
-    height: 100px;
+    width: 80vh;
+    height: 80px;
+    font-size: 1em;
+}
+
+.fa-regular {
+    color: #000;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 
 .btn-form {
     width: 20vh;
-    height: 80px;
+    height: 60px;
     display: inline-block;
     border: none;
     background-color: #2ecc71;
-    font-size: 1.5em;
+    font-size: 1.2em;
     color: #fff;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
 input[type="email"],
 input[type="submit"] {
     width: 55%;
-    height: 80px;
-    margin: 14px 0;
+    height: 40px;
+    margin: 14px 0px 0px 30px;
     display: inline-block;
     border: none;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .hero2-section {
@@ -120,7 +134,7 @@ input[type="submit"] {
 
 .hero2-section>h2 {
     margin-top: 50px;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 600;
     font-family: "Raleway", sans-serif;
 }
@@ -137,12 +151,12 @@ input[type="submit"] {
 }
 
 .numbers>h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
 }
 
 .numbers>p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 400;
     margin-top: 20px;
 }
@@ -183,7 +197,7 @@ input[type="submit"] {
     justify-content: space-around;
     align-items: center;
     text-align: left;
-    margin-top: 50px;
+    margin-top: 80px;
     height: 50vh;
 }
 
@@ -192,7 +206,7 @@ input[type="submit"] {
 }
 
 .content>h4 {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 900;
     font-family: "Raleway", sans-serif;
 }
@@ -203,7 +217,7 @@ input[type="submit"] {
 }
 
 .content>p {
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 400;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -212,11 +226,11 @@ input[type="submit"] {
 
 .content>button {
     width: 20vh;
-    height: 70px;
+    height: 50px;
     display: inline-block;
     border: none;
     background-color: #26c281;
-    font-size: 1.5em;
+    font-size: 1em;
     color: #fff;
 }
 
@@ -259,14 +273,14 @@ input[type="submit"] {
 }
 
 .card>h3 {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .card>p {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.5em;
     font-weight: 400;
 }
@@ -293,7 +307,7 @@ input[type="submit"] {
 }
 
 .footer-logo {
-    height: 20vh;
+    height: 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -344,8 +358,8 @@ hr {
 
 .footer-links>ul>li>h4 {
     color: white;
-    margin-bottom: 15px;
-    font-size: 2em;
+    /* margin-bottom: 15px; */
+    font-size: 1.5em;
 }
 
 .footer-links>ul>li>a {
@@ -353,12 +367,12 @@ hr {
 }
 
 .footer-links>ul>li {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .links>a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 1.5em;
     text-decoration: none;
 }
